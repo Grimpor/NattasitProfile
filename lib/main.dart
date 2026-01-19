@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("My Profile"),
+          title: Text("⭐My Profile⭐"),
           backgroundColor: Colors.amber[100],
         ),
         body: Center(
@@ -40,13 +40,14 @@ class MainApp extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
+                    Icon(Icons.person, size: 40),
                     Text('ชื่อ: ณัฐสิทธิ์ สมดอก ชื่อเล่น: บุ๊ค(Book)'),
                     SizedBox(height: 10),
                     Text('อายุ: 21 วันเกิด: 05/08/2547'),
                     SizedBox(height: 10),
                     Text('เบอร์โทร: 096-179-1335'),
                     SizedBox(height: 10),
-                    Text('E-mail: 096-179-1335'),
+                    Text('E-mail: nutthasit.chop@gmail.com'),
                     SizedBox(height: 10),
                     Text('คณะ: บริหารธุกิจ สาขา: เทคโนโลยีทางธุรกิจดิจิทัล'),
                     SizedBox(height: 10),
